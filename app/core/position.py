@@ -61,5 +61,5 @@ def position_holding_returns(
     holding_returns_df = returns_from_prices(holding_prices_df)
 
     holding_returns_df.index = holding_returns_df.index.strftime("%Y-%m-%d")
-
     return holding_returns_df
+
